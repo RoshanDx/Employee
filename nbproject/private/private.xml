@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/rosha/Documents/NetBeansProjects/Employee/src/employee/UpdateImpl.java</file>
-            <file>file:/C:/Users/rosha/Documents/NetBeansProjects/Employee/src/employee/Main.java</file>
+            <file>file:/G:/Employee/src/employee/Employee.java</file>
+            <file>file:/G:/Employee/src/employee/Department.java</file>
+            <file>file:/G:/Employee/src/employee/Main.java</file>
+            <file>file:/G:/Employee/src/employee/CreateImpl.java</file>
+            <file>file:/G:/Employee/src/employee/Manager.java</file>
         </group>
     </open-files>
 </project-private>

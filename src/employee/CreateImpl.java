@@ -5,8 +5,6 @@
  */
 package employee;
 
-import employee.Employee;
-import employee.ICreate;
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,26 +13,28 @@ import java.util.Scanner;
  * @author yamuna
  */
 public class CreateImpl implements ICreate {
-    
-    public void create(List<Employee> e){
-        
-        int id , salary ;
-        String name , role, email;
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter id");
-        id = sc.nextInt();
-        System.out.println("Enter name");
-        name = sc.next();
-        System.out.println("Enter role");
-        role = sc.next();
-        System.out.println("Enter email");
-        email = sc.next();
-        System.out.println("Enter salary");
-        salary = sc.nextInt();
-        e.add(new Employee(id, salary, name, role, email));
-        System.out.println("Successfully inserted\n");
-    
-    }
-    
+
+	public void create(List<Employee> e) {
+
+		int id, salary;
+		String name, role, email, departmentName;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter id");
+		id = sc.nextInt();
+		System.out.println("Enter name");
+		name = sc.next();
+		System.out.println("Enter role");
+		role = sc.next();
+		System.out.println("Enter email");
+		email = sc.next();
+		System.out.println("Enter salary");
+		salary = sc.nextInt();
+		System.out.println("Enter department");
+		departmentName = sc.next();
+		e.add(new Employee(id, salary, name, role, email, departmentName));
+		System.out.println("Successfully inserted\n");
+
+	}
+
 }

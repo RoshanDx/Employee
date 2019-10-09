@@ -23,10 +23,10 @@ public class ReadImpl implements IRead{
         } else {
             Iterator<Employee> itr = e.iterator();
             while (itr.hasNext()) {
-                System.out.println(itr.next() + "\n");
+                System.out.println(itr.next().getDetails() + "\n");
             }
         }
-    
     }
+    
     
 }
